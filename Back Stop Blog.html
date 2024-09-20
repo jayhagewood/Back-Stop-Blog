@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2-Lane Shooting Range Build Guide</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+    h1, h2 {
+      color: #333;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+    .shopping-list, .instructions {
+      margin: 20px 0;
+    }
+    .shopping-list ul, .instructions ol {
+      list-style-type: none;
+      padding: 0;
+    }
+    .shopping-list ul li, .instructions ol li {
+      background: #f0f0f0;
+      padding: 10px;
+      margin: 5px 0;
+      border-radius: 4px;
+    }
+    button {
+      margin-top: 20px;
+      padding: 10px 15px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+<style>
+  body {
+    background-color: #fafafa;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+  }
+  h1 {
+    color: #4CAF50;
+  }
+  .container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #0056b3;
+  }
+</style>
+
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>2-Lane Shooting Range Build Guide</h1>
+    <p>This guide provides the shopping list, suppliers, and step-by-step instructions for building a 2-lane shooting range with a hybrid backstop using railroad ties and wire mesh.</p>
+
+    <div class="shopping-list">
+      <h2>Shopping List with Recommendations</h2>
+      <ul>
+        <li><strong>Railroad Ties</strong> - 24 ties (from Home Depot or Lowe’s, cost $552 - $720)</li>
+        <li><strong>Wire Mesh Panels</strong> - 10 panels (from Tractor Supply Co. or Home Depot, cost $350 - $500)</li>
+        <li><strong>Geotextile Fabric Liner</strong> - 1 roll (from Lowe’s or Home Depot, cost $75 - $100)</li>
+        <li><strong>Fill Material (Gravel or Sand)</strong> - 6 cubic yards (from Mulch & Stone LLC or JK Enterprise, cost $150 - $300)</li>
+        <li><strong>Fastening Materials</strong> - Screws, brackets, wire, zip ties (from Home Depot or Lowe’s, cost $35 - $55)</li>
+        <li><strong>Support Stakes</strong> (Optional) - 8 stakes (from Home Depot or Tractor Supply Co., cost $40 - $80)</li>
+      </ul>
+    </div>
+
+    <button onclick="showInstructions()">View Assembly Instructions</button>
+
+    <div class="instructions" id="instructions" style="display:none;">
+      <h2>Assembly Instructions</h2>
+      <ol>
+        <li><strong>Prepare the Ground:</strong> Clear and level the site, marking a 16' x 4' area for the backstop and 8' x 4' areas for the sides.</li>
+        <li><strong>Lay the Railroad Ties:</strong> Lay 6 ties side by side for the backstop, then stack 2 more layers to form a 4' deep base. Do the same for the sides with 3 ties per layer.</li>
+        <li><strong>Attach Wire Mesh Panels:</strong> Secure 4' x 8' mesh panels to the top of the railroad ties using screws and brackets. Repeat for the sides.</li>
+        <li><strong>Install Geotextile Fabric:</strong> Line the inside of the mesh panels with fabric, securing it with zip ties.</li>
+        <li><strong>Add Fill Material:</strong> Fill the structure with gravel or sand, compacting it evenly throughout.</li>
+        <li><strong>Finalize the Structure:</strong> Secure the tops of the mesh panels with wire or zip ties. Add support stakes if necessary.</li>
+        <li><strong>Test and Inspect:</strong> Ensure stability and perform test shots to check the effectiveness of the backstop.</li>
+      </ol>
+    </div>
+  </div>
+
+  <script>
+    function showInstructions() {
+      const instructions = document.getElementById("instructions");
+      if (instructions.style.display === "none") {
+        instructions.style.display = "block";
+      } else {
+        instructions.style.display = "none";
+      }
+    }
+  </script>
+
+</body>
+</html>
